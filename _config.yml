@@ -11,7 +11,7 @@ gems:
 #baseurl: "/projectname"
 url: ""
 enforce_ssl: ""
-baseurl: "/jekyllBasicBlog"
+baseurl: "/pbx-candidate-answers"
 
 # Title of website
 title: Babji Chetty

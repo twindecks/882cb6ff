@@ -1,7 +1,7 @@
 ---
-layout: template1
-title: About me
+layout  : template1
+title   : About me
 comments: false
 ---
 
-Hey there! My name is **Babji, Chetty**
+TODO: Add more details about candidate

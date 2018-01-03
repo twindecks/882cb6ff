@@ -1,26 +1,12 @@
-# Build settings
-# Gems
-gems: 
+gems:
 - jekyll-paginate
-- jekyll-feed
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-# If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-url: ""
-enforce_ssl: ""
+
+url: "/pbx-candidate-answers/"
 baseurl: "/pbx-candidate-answers"
 
-# Title of website
-title: Babji Chetty
-
-#Default keywords (used if no keywords are specified on a page basis)
-keywords: test1, test2, etc
-
-# Short description of your site
-desc: Sample Description
+title: PBX Group Security - Candidate site
+desc : PBX Group Security - Candidate site
 
 # --- Navigation bar options --- #
 
@@ -33,35 +19,9 @@ nav-links:
   Home: ""
   About Me: "aboutme"
   Archive: "archive"
-  Contact: "contact"  
   
-# --- Footer options --- #
-
-# If the values are empty, they are ignored 
-profile:
-  name: Babji Chetty
-  email: Your-Email
-  facebook: your-fb-id
-  github: your-github-id 
-  twitter: your-twitter-id
-  linkedin: your-linkedin-id
-  stackoverflow: your-stackoverflow-id
-
-# To display link in the footer section
-pretty-url: "bchetty.com"
-
-# --- Misc --- #
-
-# Your Disqus profile (shortname) settings
-disqus: "Your-Disqus-Id"
-
-# Google Analytics Settings
-google_analytics: "Your-GA-Id"
-
-# Set these options as you need (For more information, check Jekyll's site)
-timezone: "Europe/Berlin"
+timezone: "Europe/London"
 markdown: kramdown
-#highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -75,7 +35,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: true  # add comments to all blog posts
+      comments: false  # add comments to all blog posts
   -
     scope:
       path: "" # all files

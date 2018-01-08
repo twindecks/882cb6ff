@@ -2,8 +2,8 @@ gems:
 - jekyll-paginate
 
 
-url: "/pbx-candidate-answers/"
-baseurl: "/pbx-candidate-answers"
+url: "/"
+baseurl: "/"
 
 title: PBX Group Security - Candidate site
 desc : PBX Group Security - Candidate site

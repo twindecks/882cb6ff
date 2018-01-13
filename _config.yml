@@ -9,7 +9,7 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: ""
+url: "https://twindecks.github.io/882cb6ff"
 enforce_ssl: ""
 baseurl: "/882cb6ff"
 

@@ -31,10 +31,7 @@ avatar: "/img/avatar.jpg"
 # List of links in the navigation bar
 nav-links:
   Home: ""
-  Travel: "travel"
-  About Me: "aboutme"
-  Archive: "archive"
-  Contact: "contact"  
+
   
 # --- Footer options --- #
 

@@ -1,12 +1,26 @@
-gems:
+# Build settings
+# Gems
+gems: 
 - jekyll-paginate
+- jekyll-feed
 
-
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+# If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
+#url: "http://username.github.io/projectname"
+#baseurl: "/projectname"
 url: ""
-baseurl: ""
+enforce_ssl: ""
+baseurl: "/882cb6ff"
 
-title: PBX Group Security - Candidate site - 882cb6ff
-desc : PBX Group Security - Candidate site - 882cb6ff
+# Title of website
+title: Babji Chetty
+
+#Default keywords (used if no keywords are specified on a page basis)
+keywords: test1, test2, etc
+
+# Short description of your site
+desc: Sample Description
 
 # --- Navigation bar options --- #
 
@@ -17,11 +31,32 @@ avatar: "/img/avatar.jpg"
 # List of links in the navigation bar
 nav-links:
   Home: ""
+  Travel: "travel"
   About Me: "aboutme"
   Archive: "archive"
+  Contact: "contact"  
   
-timezone: "Europe/London"
+# --- Footer options --- #
+
+# If the values are empty, they are ignored 
+profile:
+  name: 882cb6ff
+
+# To display link in the footer section
+pretty-url: ""
+
+# --- Misc --- #
+
+# Your Disqus profile (shortname) settings
+# disqus: "Your-Disqus-Id"
+
+# Google Analytics Settings
+# google_analytics: "Your-GA-Id"
+
+# Set these options as you need (For more information, check Jekyll's site)
+timezone: "Europe/Berlin"
 markdown: kramdown
+#highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -35,7 +70,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false  # add comments to all blog posts
+      comments: true  # add comments to all blog posts
   -
     scope:
       path: "" # all files
@@ -53,5 +88,3 @@ exclude:
 
 created-by: Babji, Chetty
 creator-url: https://bchetty.com
-
-theme: jekyll-theme-slate
